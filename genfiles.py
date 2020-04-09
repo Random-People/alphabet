@@ -1,1 +1,1 @@
-[open(i,"w+").write(i)for i in input()]
+[open(i,"w").write(i)for i in input()]
