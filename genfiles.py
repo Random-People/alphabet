@@ -1,4 +1,1 @@
-for i in input():
-	alph = open(i,"w+")
-	alph.write(i)
-	alph.close()
+[open(i,"w+").write(i)for i in input()]
